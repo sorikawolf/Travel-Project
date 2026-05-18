@@ -47,7 +47,7 @@ header a {
   background: white;
   padding: 16px 32px;
 }
-.container {
+.container header {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -94,7 +94,27 @@ header a {
   font-style: italic;
 }
 
-@media (max-width: 900px) {
+footer {
+  color: white;
+  background-image:
+    linear-gradient(rgba(5, 2, 55, 0.9), rgba(5, 2, 55, 0.9)),
+    url(../images/Greenpoint.jpeg);
+  background-position: bottom;
+  background-size: contain;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
