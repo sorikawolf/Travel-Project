@@ -8,10 +8,12 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px;
 }
 section {
   max-width: 1100px;
+  display: block;
   margin: 0 auto;
 }
 
@@ -110,7 +112,7 @@ footer {
     url(../images/Greenpoint.jpeg);
   background-position: bottom;
   background-size: contain;
-  padding: 100px;
+  padding: 100px 100px 50px 75px;
 }
 
 footer h3 {
@@ -126,16 +128,25 @@ footer a {
 footer p {
   font-size: 16px;
   line-height: 24px;
+  padding: 0;
+  margin: 0;
 }
 
 footer ul {
   padding: 0;
+  margin: 0;
 }
 
 footer li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+footer .coded-by {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 75px;
 }
 
 @media (max-width: 960px) {
