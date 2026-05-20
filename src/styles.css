@@ -8,13 +8,23 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 64px;
 }
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.three-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 section {
   max-width: 1100px;
   display: block;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 header {
@@ -61,6 +71,37 @@ header a {
   color: #4c70a8;
   background: white;
   padding: 16px 32px;
+}
+
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h3 {
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #272044;
+  opacity: 0.7;
+}
+
+main img {
+  max-width: 600px;
 }
 
 .poppins-light {
@@ -112,12 +153,14 @@ footer {
     url(../images/Greenpoint.jpeg);
   background-position: bottom;
   background-size: contain;
-  padding: 100px 100px 50px 75px;
+  padding: 10px 100px 10px 100px;
 }
 
 footer h3 {
   font-size: 20px;
   line-height: 30px;
+  margin: 0 0 10px 0;
+  padding-top: 0;
 }
 
 footer a {
@@ -146,7 +189,7 @@ footer li {
 footer .coded-by {
   text-align: center;
   font-size: 14px;
-  margin-top: 75px;
+  margin-top: 25pxpx;
 }
 
 @media (max-width: 960px) {
