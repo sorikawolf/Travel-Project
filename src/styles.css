@@ -212,4 +212,28 @@ footer .coded-by {
     font-size: 9px;
     padding: 8px 16px;
   }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  .grid p,
+  .grid h2,
+  .grid h3 {
+    padding: 0 20px;
+  }
+  main h3 {
+    font-size: 25px;
+  }
+
+  main img {
+    max-width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  footer ul {
+    margin-left: 20px;
+  }
 }
