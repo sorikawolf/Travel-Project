@@ -126,10 +126,14 @@ h3.text-center {
   text-align: center;
 }
 
+.rascal a {
+  margin-bottom: 50px;
+}
+
 .btn {
   text-align: center;
   display: block;
-  margin: 0 auto;
+  margin: 0;
   text-decoration: none;
   background: rgb(10, 10, 68);
   color: white;
