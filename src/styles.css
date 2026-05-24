@@ -172,6 +172,16 @@ h3.text-center {
   margin: 0 auto;
 }
 
+.gallery h2,
+.gallery h3 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.gallery .grid {
+  grid-gap: 15px;
+}
+
 .poppins-light {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
