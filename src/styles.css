@@ -126,10 +126,6 @@ h3.text-center {
   text-align: center;
 }
 
-.rascal a {
-  margin-bottom: 50px;
-}
-
 .btn {
   text-align: center;
   display: block;
@@ -151,6 +147,7 @@ h3.text-center {
 .card-body {
   padding: 15px;
 }
+
 .image-responsive {
   max-width: 100%;
   display: block;
